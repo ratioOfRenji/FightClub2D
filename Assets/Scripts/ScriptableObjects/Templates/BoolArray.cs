@@ -1,7 +1,7 @@
 
 using UnityEngine;
 [CreateAssetMenu]
-public class BoolArray : ScriptableObject
+public class BoolArray : BaseArray
 {
     public bool[] value;
 }

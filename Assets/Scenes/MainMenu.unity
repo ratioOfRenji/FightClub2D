@@ -864,7 +864,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1173497881
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1395,6 +1395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerHp: {fileID: 11400000, guid: 5a6d9ad50beb58c4f879ecbd87ec02d5, type: 2}
   OponentHp: {fileID: 11400000, guid: c654a74269417ce48a3d6c6f0d0badea, type: 2}
+  PlayersInRoom: {fileID: 0}
   drawUi: {fileID: 0}
   winUi: {fileID: 0}
   loseUi: {fileID: 0}
@@ -1411,10 +1412,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b7a5ce53f5264f4fa8f1a8f0cd1aef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayersInRoom: {fileID: 11400000, guid: 915ade9fba7c9dd40ad45ded68dfb5d9, type: 2}
+  protectScore: {fileID: 11400000, guid: 5d2b38b3660da3049b84d5f290f7e627, type: 2}
+  attackScore: {fileID: 11400000, guid: 810d81d7b779eae42bc27b1ea9a71a16, type: 2}
   playersHp: {fileID: 11400000, guid: 5a6d9ad50beb58c4f879ecbd87ec02d5, type: 2}
   OpponentHp: {fileID: 11400000, guid: c654a74269417ce48a3d6c6f0d0badea, type: 2}
+  timer: {fileID: 11400000, guid: 4f0e4257c748f414591c59d6c42f8b16, type: 2}
   playersBool: {fileID: 11400000, guid: 8e8d7cd1bbd72854f8b83d5b945d08b8, type: 2}
   opponentsBool: {fileID: 11400000, guid: 32f6ecd5a4e48c14a8f62ecf7328f86b, type: 2}
+  animationPlayed: {fileID: 11400000, guid: 63539122403e8944baf4ef4d3a48e854, type: 2}
   playerProtectedParts: {fileID: 11400000, guid: f337ceed6567b834ea74200449173b7a, type: 2}
   opponentsProtectedParts: {fileID: 11400000, guid: 254cf0833facb964ca8eedeaf1d63801, type: 2}
   playersAttacks: {fileID: 11400000, guid: 2d401eda42e3b66408e4aae334240bc9, type: 2}
